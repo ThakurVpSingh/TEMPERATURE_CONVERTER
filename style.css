@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap");
+
+* {
+  font-family: "Mulish", sans-serif;
+}
+
+body {
+  width: 100%;
+  height: 85vh;
+  background: url(../Img/download.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  place-items: center;
+}
+h1 {
+    color: #FFFFFF;
+}
+
+#fa {
+  font-size: 60px;
+}
+
+form {
+  background-color: #6b6969;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-shadow: 0 10px 6px -6px #777;
+  -moz-box-shadow: 0 10px 6px -6px #777;
+  box-shadow: 0 10px 6px -6px #777;
+  border-radius: 10px;
+}
+
+#tempCalc label {
+  font-size: 30px;
+}
+
+[type="submit"]{
+    height: 35px;
+    margin: 20px;
+    width: 100px;
+    font-size: 15px;
+    border: none;
+    border-radius: 4px;
+    background-color: black;
+    color: white;
+}
+.btn:hover{
+  background-color: #023202;
+  color: #fff; 
+}
+ 
+  button {
+    top: 0;
+    right: -15px;
+    border-radius: 4px;
+    /* background-color: #f4511e; */
+    border:#0000;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 10px;
+    padding: 10px;
+    width: 100px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+[type="submit"]:hover{
+    opacity: 1;
+    right: 0;
+    padding-right: 15px;
+    /* background-color: #023202;
+    color: #fff; */
+    font-weight: bold;
+   
+}
+
+#resultContainer {
+  font-size: 35px;
+}
+
+.trans--grow{
+  --webkit-transition: width 1s ease-out;  
+  transition: width .3s  ease-out;
+  width : 50%;
+}
+.grow{
+  width: 100%;
+}
+.an1{
+  margin-left: 10px;
+}
+.an2{
+  margin-right: 10px;
+}
+hr{
+  margin-top: 20px;
+  padding: 2px 0;
+  border: none;
+  background-color: #080807;
+  letter-spacing: 5px;
+}
